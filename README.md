@@ -28,12 +28,6 @@ npm install detect-nearest-browser-locale
 import detectNearestBrowserLocale from 'detect-nearest-browser-locale';
 ```
 
-### Node
-
-```javascript
-const detectNearestBrowserLocale = require('detect-nearest-browser-locale');
-```
-
 ### browser
 
 ```html
