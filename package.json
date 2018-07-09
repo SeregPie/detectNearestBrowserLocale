@@ -1,6 +1,6 @@
 {
 	"name": "detect-nearest-browser-locale",
-	"version": "18.5.29",
+	"version": "18.7.9",
 	"description": "Detects nearest browser locale.",
 	"main": "detectNearestBrowserLocale.js",
 	"scripts": {
