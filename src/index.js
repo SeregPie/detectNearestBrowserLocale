@@ -1,7 +1,8 @@
 export default function(supportedLocales = []) {
 	if (supportedLocales.length > 0) {
-		for (let i = 0, ii = navigator.languages.length; i < ii; ++i) {
-			let locale = navigator.languages[i];
+		let locales = navigator.languages || [navigator.language || ''];
+		for (let i = 0, ii = locales.length; i < ii; ++i) {
+			let locale = locales[i];
 			for (;;) {
 				if (supportedLocales.includes(locale)) {
 					return locale;
