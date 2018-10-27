@@ -1,7 +1,7 @@
 {
 	"name": "detect-nearest-browser-locale",
 	"version": "18.7.9",
-	"description": "Detects nearest browser locale.",
+	"description": "Detects the nearest browser locale.",
 	"keywords": [
 		"browser",
 		"detect",

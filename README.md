@@ -2,17 +2,13 @@
 
 `detectNearestBrowserLocale(supportedLocales)`
 
-Detects nearest browser locale.
+Detects the nearest browser locale.
 
 | argument | description |
 | ---: | :--- |
 | `supportedLocales` | An array of supported locales. |
 
 Returns the first matching supported locale.
-
-## dependencies
-
-*no dependencies*
 
 ## setup
 
