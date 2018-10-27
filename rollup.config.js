@@ -1,6 +1,6 @@
 import buble from 'rollup-plugin-buble';
+import minify from 'rollup-plugin-babel-minify';
 import path from 'path';
-import {uglify} from 'rollup-plugin-uglify';
 
 import {main} from './package.json';
 
@@ -13,6 +13,6 @@ export default {
 	},
 	plugins: [
 		buble(),
-		uglify(),
+		minify({comments: false}),
 	],
 };
