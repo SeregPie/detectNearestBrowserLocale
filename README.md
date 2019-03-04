@@ -10,12 +10,16 @@ Detects the nearest browser locale.
 
 Returns the first matching supported locale.
 
+## dependencies
+
+- [detectNearestLocale](https://github.com/SeregPie/detectNearestLocale)
+
 ## setup
 
 ### npm
 
 ```shell
-npm install detect-nearest-browser-locale
+npm i detect-nearest-browser-locale
 ```
 
 ### ES module
@@ -27,13 +31,14 @@ import detectNearestBrowserLocale from 'detect-nearest-browser-locale';
 ### browser
 
 ```html
+<script src="https://unpkg.com/detect-nearest-locale"></script>
 <script src="https://unpkg.com/detect-nearest-browser-locale"></script>
 ```
 
 ## usage
 
 ```javascript
-// navigator.languages => ['de-DE', 'en-US', 'en-GB']
-let locale = detectNearestBrowserLocale(['ru', 'en']);
-// => 'en'
+// navigator.languages => ['de', 'en-GB']
+let locale = detectNearestBrowserLocale(['ru', 'en-US']);
+// => 'en-US'
 ```
