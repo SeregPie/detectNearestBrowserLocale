@@ -6,7 +6,7 @@ Detects the nearest browser locale.
 
 | argument | description |
 | ---: | :--- |
-| `supportedLocales` | An array of supported locales. |
+| `supportedLocales` | An array of the supported locales. |
 
 Returns the first matching supported locale.
 
